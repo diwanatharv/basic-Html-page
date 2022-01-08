@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="images\favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
     <title>backtracking</title>
 </head>
 
@@ -30,7 +30,7 @@
         there are no good leaves to be found.
     </p>
     <p>This needs an example.</p>
-    <center> <img src="images\treesearch.gif" alt="tree search"></center>
+    <center> <img src="treesearch.gif" alt="tree search"></center>
     <ol>
         <li>Starting at Root, your options are A and B. You choose A.</li>
         <li>At A, your options are C and D. You choose C. </li>
@@ -220,7 +220,7 @@
         there are no cycles. For our purposes, although this is not part of the definition of a binary tree, we will say
         that a node might or might not be a goal node, and will contain its name. The first example in this paper (which
         we repeat here) shows a binary tree.</p>
-    <center> <img src="images\treesearch.gif" alt="tree search"></center>
+    <center> <img src="treesearch.gif" alt="tree search"></center>
     <p> Here's a definition of the BinaryTree class:</p>
     <pre style="color:brown;font-size:large;">
         public class BinaryTree {
@@ -359,7 +359,7 @@
 </pre>
     <p>Those appear pretty similar, and you might think they are equally good. However, the timing information suggests
         otherwise</p>
-    <table cellpadding="4" border="1px" align="centre">
+   <center> <table cellpadding="4" border="1px" align="centre">
         <thead>
             <th>
             <td bgcolor="grey">2 by 3 map </td>
@@ -386,7 +386,7 @@
             </tr>
 
         </tbody>
-    </table>
+    </table></center>
     <p>The zeros in the above table indicate times too short to measure (less than 1 millisecond). Why this huge
         difference? Either of these methods could have exponential growth. Eliminating a node automatically eliminates
         all of its descendents, and this will often prevent exponential growth. Conversely, by waiting to check until a
@@ -549,19 +549,19 @@ static boolean no(BinaryTree node) {
             <tbody>
                 <tr>
                     <td>
-                        <img src="images\black-ball.gif">
+                        <img src="black-ball.gif">
                     </td>
                     <td>
-                        <img src="images\black-ball.gif">
+                        <img src="black-ball.gif">
                     </td>
                     <td>
                         &nbsp; &nbsp;
                     </td>
                     <td>
-                        <img src="images\white-ball (1).gif" alt="">
+                        <img src="white-ball.gif" alt="">
                     </td>
                     <td>
-                        <img src="images\white-ball (1).gif" alt="">
+                        <img src="white-ball.gif" alt="">
                     </td>
                 </tr>
             </tbody>
@@ -573,19 +573,19 @@ static boolean no(BinaryTree node) {
             <tbody>
                 <tr>
                     <td>
-                        <img src="images\white-ball (1).gif" alt="">
+                        <img src="white-ball.gif" alt="">
                     </td>
                     <td>
-                        <img src="images\white-ball (1).gif" alt="">
+                        <img src="white-ball.gif" alt="">
                     </td>
                     <td>
                         &nbsp; &nbsp;
                     </td>
                     <td>
-                        <img src="images\black-ball.gif">
+                        <img src="black-ball.gif">
                     </td>
                     <td>
-                        <img src="images\black-ball.gif">
+                        <img src="black-ball.gif">
                     </td>
                 </tr>
             </tbody>
@@ -610,11 +610,11 @@ static boolean no(BinaryTree node) {
                     <table cellspacing="0" cellpadding="6" border="1" bgcolor="#dddddd" align="center">
                         <tbody>
                             <tr>
-                                <td width="44"><img src="images\black-ball.gif" width="44" height="44"></td>
-                                <td width="44"><img src="images\black-ball.gif" width="44" height="44"></td>
+                                <td width="44"><img src="black-ball.gif" width="44" height="44"></td>
+                                <td width="44"><img src="black-ball.gif" width="44" height="44"></td>
                                 <td width="44">&nbsp;</td>
-                                <td width="44"><img src="images\white-ball (1).gif" width="44" height="44"></td>
-                                <td width="44"><img src="images\white-ball (1).gif" width="44" height="44"></td>
+                                <td width="44"><img src="white-ball.gif" width="44" height="44"></td>
+                                <td width="44"><img src="white-ball.gif" width="44" height="44"></td>
                             </tr>
                         </tbody>
                     </table>
@@ -626,12 +626,12 @@ static boolean no(BinaryTree node) {
                     <table cellspacing="0" cellpadding="6" border="1" bgcolor="#dddddd" align="center">
                         <tbody>
                             <tr>
-                                <td width="44" height="44"><img src="images\black-ball.gif" width="44" height="44"></td>
+                                <td width="44" height="44"><img src="black-ball.gif" width="44" height="44"></td>
                                 <td width="44" height="44">&nbsp;</td>
-                                <td width="44" height="44"><img src="images\black-ball.gif" width="44" height="44"></td>
-                                <td width="44" height="44"><img src="images\white-ball (1).gif" width="44" height="44">
+                                <td width="44" height="44"><img src="black-ball.gif" width="44" height="44"></td>
+                                <td width="44" height="44"><img src="white-ball.gif" width="44" height="44">
                                 </td>
-                                <td width="44" height="44"><img src="images\white-ball (1).gif" width="44" height="44">
+                                <td width="44" height="44"><img src="white-ball.gif" width="44" height="44">
                                 </td>
                             </tr>
                         </tbody>
@@ -644,12 +644,12 @@ static boolean no(BinaryTree node) {
                     <table cellspacing="0" cellpadding="6" border="1" bgcolor="#dddddd" align="center">
                         <tbody>
                             <tr>
-                                <td width="44" height="44"><img src="images\black-ball.gif" width="44" height="44"></td>
-                                <td width="44" height="44"><img src="images\white-ball (1).gif" width="44" height="44">
+                                <td width="44" height="44"><img src="black-ball.gif" width="44" height="44"></td>
+                                <td width="44" height="44"><img src="white-ball.gif" width="44" height="44">
                                 </td>
-                                <td width="44" height="44"><img src="images\black-ball.gif" width="44" height="44"></td>
+                                <td width="44" height="44"><img src="black-ball.gif" width="44" height="44"></td>
                                 <td width="44" height="44">&nbsp;</td>
-                                <td width="44" height="44"><img src="images\white-ball (1).gif" width="44" height="44">
+                                <td width="44" height="44"><img src="white-ball.gif" width="44" height="44">
                                 </td>
                             </tr>
                         </tbody>
@@ -662,12 +662,12 @@ static boolean no(BinaryTree node) {
                     <table cellspacing="0" cellpadding="6" border="1" bgcolor="#dddddd" align="center">
                         <tbody>
                             <tr>
-                                <td width="44" height="44"><img src="images\black-ball.gif" width="44" height="44"></td>
-                                <td width="44" height="44"><img src="images\white-ball (1).gif" width="44" height="44">
+                                <td width="44" height="44"><img src="black-ball.gif" width="44" height="44"></td>
+                                <td width="44" height="44"><img src="white-ball.gif" width="44" height="44">
                                 </td>
                                 <td width="44" height="44">&nbsp;</td>
-                                <td width="44" height="44"><img src="images\black-ball.gif" width="44" height="44"></td>
-                                <td width="44" height="44"><img src="images\white-ball (1).gif" width="44" height="44">
+                                <td width="44" height="44"><img src="black-ball.gif" width="44" height="44"></td>
+                                <td width="44" height="44"><img src="white-ball.gif" width="44" height="44">
                                 </td>
                             </tr>
                         </tbody>
@@ -681,11 +681,11 @@ static boolean no(BinaryTree node) {
                         <tbody>
                             <tr>
                                 <td width="44" height="44">&nbsp;</td>
-                                <td width="44" height="44"><img src="images\white-ball (1).gif" width="44" height="44">
+                                <td width="44" height="44"><img src="white-ball.gif" width="44" height="44">
                                 </td>
-                                <td width="44" height="44"><img src="images\black-ball.gif" width="44" height="44"></td>
-                                <td width="44" height="44"><img src="images\black-ball.gif" width="44" height="44"></td>
-                                <td width="44" height="44"><img src="images\white-ball (1).gif" width="44" height="44">
+                                <td width="44" height="44"><img src="black-ball.gif" width="44" height="44"></td>
+                                <td width="44" height="44"><img src="black-ball.gif" width="44" height="44"></td>
+                                <td width="44" height="44"><img src="white-ball.gif" width="44" height="44">
                                 </td>
                             </tr>
                         </tbody>
@@ -699,11 +699,11 @@ static boolean no(BinaryTree node) {
                         <tbody>
                             <tr>
                                 <td width="44" height="59">&nbsp;</td>
-                                <td width="44" height="59"><img src="images\white-ball (1).gif" width="44" height="44">
+                                <td width="44" height="59"><img src="white-ball.gif" width="44" height="44">
                                 </td>
-                                <td width="44" height="59"><img src="images\black-ball.gif" width="44" height="44"></td>
-                                <td width="44" height="59"><img src="images\black-ball.gif" width="44" height="44"></td>
-                                <td width="44" height="59"><img src="images\white-ball (1).gif" width="44" height="44">
+                                <td width="44" height="59"><img src="black-ball.gif" width="44" height="44"></td>
+                                <td width="44" height="59"><img src="black-ball.gif" width="44" height="44"></td>
+                                <td width="44" height="59"><img src="white-ball.gif" width="44" height="44">
                                 </td>
                             </tr>
                         </tbody>
